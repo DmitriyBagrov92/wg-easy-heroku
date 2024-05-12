@@ -6,13 +6,13 @@ services:
     environment:
       # Change Language:
       # (Supports: en, ua, ru, tr, no, pl, fr, de, ca, es, ko, vi, nl, is, pt, chs, cht, it, th, hi)
-      - LANG=de
+      - LANG=en
       # ⚠️ Required:
       # Change this to your host's public address
-      - WG_HOST=raspberrypi.local
+      - WG_HOST=europe-wireguard-point-2abf11f48b86.herokuapp.com
 
       # Optional:
-      # - PASSWORD=foobar123
+      - PASSWORD=secure-password
       # - PORT=51821
       # - WG_PORT=51820
       # - WG_DEFAULT_ADDRESS=10.8.0.x
